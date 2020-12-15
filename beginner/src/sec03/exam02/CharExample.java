@@ -6,6 +6,11 @@ public class CharExample {
         char var2 = 'B';
         char var3 = '가';
         char var4 = '다';
+        char var5 = 65; //10진수로 저장
+        char var6 = '\u0041'; //16진수로 저장
+        char var7 = 44032; //10진수로 저장
+        char var8 = '\uac00'; //16진수로 저장
+
         int let1 = var1;
         int let2 = var2;
         int let3 = var3;
@@ -16,6 +21,10 @@ public class CharExample {
         System.out.println(var2);
         System.out.println(var3);
         System.out.println(var4);
+        System.out.println(var5);
+        System.out.println(var6);
+        System.out.println(var7);
+        System.out.println(var8);
 
         System.out.println(let1);
         System.out.println(let2);
